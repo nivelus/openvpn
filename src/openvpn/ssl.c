@@ -4106,7 +4106,7 @@ show_available_tls_ciphers(const char *cipher_list,
     show_available_tls_ciphers_list(cipher_list, tls_cert_profile, false);
 
     printf("\n"
-           "Be aware that that whether a cipher suite in this list can actually work\n"
+           "Be aware that whether a cipher suite in this list can actually work\n"
            "depends on the specific setup of both peers. See the man page entries of\n"
            "--tls-cipher and --show-tls for more details.\n\n"
            );
